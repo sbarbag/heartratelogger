@@ -4,7 +4,7 @@ import webbrowser
 
 
 def get_code():
-    secrets = dotenv_values(".gitignore")
+    secrets = dotenv_values(".env")
 
     client = Client()
     url = client.authorization_url(
@@ -19,7 +19,7 @@ def get_code():
     webbrowser.open_new_tab(url)
 
 def get_token(your_code):
-    secrets = dotenv_values(".gitignore")
+    secrets = dotenv_values(".env")
     client = Client()
     
     token_response = client.exchange_code_for_token(
