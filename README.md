@@ -13,7 +13,6 @@ This is built with [Strava Lib which can be found here](https://stravalib.readth
 ## Roadmap
 Future versions may  
 -improve token generation process  
--add functionality to export results to a separate file  
 -include graphing/plotting of trends  
 -contain an integrated "database" to connect directly to a larger global workout log
 
